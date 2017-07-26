@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#696b79</color>
+    <color name="colorPrimaryDark">#061158</color>
+    <color name="colorAccent">#34cfce</color>
+    <color name="textColorTaskDetails">#B4BAC0</color>
+    <color name="textColorTaskName">#2B3D4D</color>
+    <color name="editorColorPrimary">#2D3640</color>
+    <color name="editorColorPrimaryDark">#394450</color>
+    <color name="categoryTextColor">#197c7c</color>
+
+    <color name="errorTextColor">#F0514B</color>
+
+    <color name="priority_high">#E13A20</color>
+    <color name="priority_low">#10CAC9</color>
+    <color name="priority_medium">#F5A623</color>
+
+</resources>
