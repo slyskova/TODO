@@ -25,11 +25,11 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] Add "Delete task" button (it's hidden while adding a new task)
-* [ ] Add "Delete all" feature with appropriate dialog
-* [ ] Add "Unsaved changes" dialog while pressing Up/Back buttons 
-* [ ] Add appropriate error message in case required "Name" field is empty
-* [ ] Add "Empty screen"
+* [X] Add "Delete task" button (it's hidden while adding a new task)
+* [X] Add "Delete all" feature with appropriate dialog
+* [X] Add "Unsaved changes" dialog while pressing Up/Back buttons 
+* [X] Add appropriate error message in case required "Name" field is empty
+* [X] Add "Empty screen"
 
 ## Video Walkthrough 
 
