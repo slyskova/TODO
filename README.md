@@ -39,6 +39,20 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+## Project Analysis
+
+As part of your pre-work submission, please reflect on the app and answer the following questions below:
+
+**Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
+
+**Answer:** [I used to work with Web Driver and UI Automator (wrote automated tests for Web and Android). For instance, there are many ways to find element in the Web Driver (by ID, by CLASS, by NAME, by CSS selector, by XPath, by TAG name), but only one way to find element in the Android. I used Java programming language to work with WebDriver, UI Automator and Android. In addition to that, IU Automator experience gave me a lot of knowledge about Android system in total].
+
+**Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
+
+**Answer:** [Array Adapter is an adapter that takes an array of items and uses this array to build our list. In my project I chose to use CursorAdapter. CursorAdapter takes a cursor which we receive as a result of a query to a sqlite database or a content resolver. We pass this cursor to the adapter and the list is created based upon the data present in the cursor.
+
+ConvertView is a view that is currently not in the screen and hence can be recycled. Before that we should check that this view is non-null and of an appropriate type before using. If it is not possible to convert this view to display the correct data, ConvertView method can create a new view.]
+
 ## Notes
 
 Describe any challenges encountered while building the app.
